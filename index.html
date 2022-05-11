@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/lightslider.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--js-link------->
+    <script src="js/JQuery3.3.1.js"></script>
+    <script src="js/lightslider.js"></script>
+    <!--usando FontAwesome------->
+    <script
+      src="https://kit.fontawesome.com/33621d5c9c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Vavaflix</title>
+  </head>
+  <body>
+    <!--navigation------->
+    <nav>
+      <!--logo------->
+      <a href="#" class="logo">
+        <h2>VAVAFLIX</h2>
+      </a>
+     <!--menu--btn----------------->
+     <input type="checkbox" class="menu-btn" id="menu-btn"/>
+     <label class="menu-icon" for="menu-btn">
+         <span class="nav-icon"></span>
+     </label>
+      <!--menu------->
+      <ul class="menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Spots</a></li>
+        <li><a href="#">Bombs</a></li>
+        <li><a href="#">GamePlays</a></li>
+      </ul>
+      <!--search------->
+      <div class="search">
+        <input type="text" placeholder="Procure seu personagem">
+        <!--search-icon------->
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </nav>
+    <section id="main">
+      <!--catalogo------->
+      <!--heading-------->
+      <h1 class="catalogo-heading">Minha Lista</h1>
+
+      <ul id="autoWidth" class="cs-hidden">
+        <!--box-1-------->
+        <li class="item-a">
+          <!--catalogo-box---->
+          <div class="catalogo-box">
+            <img src="imagem/killjoy1.JPG" />
+          </div>
+        </li>
+        <!--box-2-------->
+        <li class="item-b">
+          <!--catalogo-box---->
+          <div class="catalogo-box">
+            <img src="imagem/jett1.JPG" />
+          </div>
+        </li>
+        <!--box-3-------->
+        <li class="item-c">
+          <!--catalogo-box---->
+          <div class="catalogo-box">
+            <img src="imagem/cypher1.JPG" />
+          </div>
+        </li>
+        <!--box-4-------->
+        <li class="item-d">
+          <!--catalogo-box---->
+          <div class="catalogo-box">
+            <img src="imagem/astra1.JPG" />
+          </div>
+        </li>
+        <!--box-5-------->
+        <li class="item-e">
+          <!--catalogo-box---->
+          <div class="catalogo-box">
+            <img src="imagem/viper1.JPG" />
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!--ultimos-lancamentos-->
+    <section id="ultimos">
+      <h2 class="ultimos-heading">Últimos Lançamentos</h2>
+      <!--slider--------->
+    </section>
+    <!--slider-script-------->
+    <ul id="autoWidth2" class="cs-hidden">
+      <!--slide-box-1----->
+      <li class="item-a">
+        <div class="ultimos-box">
+          <!--img------->
+          <div class="ultimos-b-img">
+            <img src="imagem/capa.PNG" />
+          </div>
+          <!--text-------->
+          <div class="ultimos-b-text">
+            <strong>New Character</strong>
+            <p>Kayo</p>
+          </div>
+        </div>
+      </li>
+      <!--slide-box-2----->
+      <li class="item-b">
+        <div class="ultimos-box">
+          <!--img------->
+          <div class="ultimos-b-img">
+            <img src="imagem/neon.PNG" />
+          </div>
+          <!--text-------->
+          <div class="ultimos-b-text">
+            <strong>Neon em Fúria</strong>
+            <p>Neon</p>
+          </div>
+        </div>
+      </li>
+      <!--slide-box-3----->
+      <li class="item-c">
+        <div class="ultimos-box">
+          <!--img------->
+          <div class="ultimos-b-img">
+            <img src="imagem/omen.PNG" />
+          </div>
+          <!--text-------->
+          <div class="ultimos-b-text">
+            <strong>O pequeno omen</strong>
+            <p>Omen</p>
+          </div>
+        </div>
+      </li>
+      <!--slide-box-4----->
+      <li class="item-d">
+        <div class="ultimos-box">
+          <!--img------->
+          <div class="ultimos-b-img">
+            <img src="imagem/chamber.PNG" />
+          </div>
+          <!--text-------->
+          <div class="ultimos-b-text">
+            <strong>Chamber empresário</strong>
+            <p>Chamber</p>
+          </div>
+        </div>
+      </li>
+      <!--slide-box-5----->
+      <li class="item-e">
+        <div class="ultimos-box">
+          <!--img------->
+          <div class="ultimos-b-img">
+            <img src="imagem/jett.PNG" />
+          </div>
+          <!--text-------->
+          <div class="ultimos-b-text">
+            <strong>Main Jett</strong>
+            <p>Jett</p>
+          </div>
+        </div>
+      </li>
+
+      <!--slide-box-6----->
+      <li class="item-f">
+        <div class="ultimos-box">
+          <!--img------->
+          <div class="ultimos-b-img">
+            <img src="imagem/astra.PNG" />
+          </div>
+          <!--text-------->
+          <div class="ultimos-b-text">
+            <strong>A maldição da astra</strong>
+            <p>Astra</p>
+          </div>
+        </div>
+      </li>
+      <!--slide-box-7----->
+      <li class="item-g">
+        <div class="ultimos-box">
+          <!--img------->
+          <div class="ultimos-b-img">
+            <img src="imagem/reyna.PNG" />
+          </div>
+          <!--text-------->
+          <div class="ultimos-b-text">
+            <strong>Reyna gótica</strong>
+            <p>Reyna</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <script>
+      $(document).ready(function () {
+        $("#autoWidth,#autoWidth2").lightSlider({
+          autoWidth: true,
+          loop: true,
+          onSliderLoad: function () {
+            $("#autoWidth,#autoWidth2").removeClass("cS-hidden");
+          },
+        });
+      });
+    </script>
+     <!--footer------------------>
+     <footer>
+      <p>Copyright 2022 - Diogo Rabelo</p>
+  </footer>
+  </body>
+</html>
